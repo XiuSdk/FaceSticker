@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="browse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mtcnn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\blob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\paramdict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\convolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\dropout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\innerproduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\pooling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\prelu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\softmax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\x86\avx_mathfun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\x86\convolution_3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\x86\convolution_5x5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\x86\convolution_x86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ncnn\layer\x86\sse_mathfun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trent_Sticker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mtcnn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\blob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\mat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\mat_pixel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\paramdict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\convolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\dropout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\innerproduct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\pooling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\prelu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\softmax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\split.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ncnn\layer\x86\convolution_x86.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trent_Sticker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

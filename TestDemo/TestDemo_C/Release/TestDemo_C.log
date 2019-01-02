@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Trent_Sticker.cpp
+Trent_Sticker.cpp(28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Trent_Sticker.cpp(37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+Trent_Sticker.cpp(38): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+    正在创建库 ..\TestDemo\bin\Release\TestDemo_C.lib 和对象 ..\TestDemo\bin\Release\TestDemo_C.exp
+  正在生成代码
+  2 of 1141 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  TestDemo_C.vcxproj -> C:\Users\Administrator\Desktop\mtcnn\001_TestDemo\TestDemo\TestDemo_C\..\TestDemo\bin\Release\TestDemo_C.dll
+  TestDemo_C.vcxproj -> ..\TestDemo\bin\Release\TestDemo_C.pdb (Full PDB)
